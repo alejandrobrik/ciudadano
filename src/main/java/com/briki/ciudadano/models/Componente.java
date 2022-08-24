@@ -17,10 +17,5 @@ public class Componente {
     @Column(name = "descripcion")
     String descripcion;
 
-    @Column(name = "aporte")
-    String aporte;
 
-    @ManyToOne
-    @JoinColumn(name = "id_usuario")
-    Usuario usuario;
 }
