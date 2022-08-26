@@ -10,6 +10,6 @@ import java.util.ArrayList;
 @Repository
 public interface UsuarioRepository extends CrudRepository<Usuario, Integer> {
 
-
+    //Metodo para buscar por nombre creado en esta interfaz
     public abstract ArrayList<Usuario> findByNombre(String nombre);
 }
